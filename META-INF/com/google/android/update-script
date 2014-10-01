@@ -1,0 +1,10 @@
+show_progress 0.500000 0
+delete SYSTEM:etc/init.d/atucha
+delete SYSTEM:etc/init.d/01xmister
+delete SYSTEM:etc/init.d/98ssswitch
+delete SYSTEM:etc/init.d/90screenstate_scaling
+delete SYSTEM:etc/atucha.conf
+copy_dir PACKAGE:system SYSTEM:
+set_perm_recursive 0 2000 0755 0750 SYSTEM:etc/init.d
+format CACHE:
+show_progress 0.100000 10
