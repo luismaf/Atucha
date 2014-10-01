@@ -1,4 +1,4 @@
-atucha
+Atucha
 ======
 
-atucha is a bourne shell script intended to increase the battery life of any android device.
+Atucha is a bourne shell script intended to increase the battery life of any android device.
